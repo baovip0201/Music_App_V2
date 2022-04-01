@@ -21,6 +21,15 @@
         android:layout_marginStart="10dp"
         android:layout_toEndOf="@+id/music_img"
         android:text="File Name"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:layout_toStartOf="@+id/menuMore"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/menuMore"
+        android:src="@drawable/ic_more"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"/>
+
 
 </RelativeLayout>
