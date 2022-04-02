@@ -1,8 +1,13 @@
 package com.bao.music_app_v2;
 
+import static com.bao.music_app_v2.MainActivity.musicFiles;
+
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +19,8 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class AlbumFragment extends Fragment {
-
+    RecyclerView recyclerView;
+    AlbumAdapter albumAdapter;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -60,6 +66,13 @@ public class AlbumFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_album, container, false);
+        recyclerView=view.findViewById(R.id.recycler_view);
+        recyclerView.setHasFixedSize(true);
+        if(!(musicFiles.size()<1)){
+            albumAdapter= new AlbumAdapter(getContext(),musicFiles);
+            recyclerView.setAdapter(albumAdapter);
+            recyclerView.setLayoutManager(new GridLayoutManager(getContext(),2));
+        }
         return view;
     }
 }
