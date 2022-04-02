@@ -89,10 +89,10 @@ public class PlayerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(shuffle){
                     shuffle=false;
-                    btn_shuffle.setImageResource(R.drawable.ic_shuffle_off);
+                    btn_shuffle.setImageResource(R.drawable.shuffle_off);
                 }else{
                     shuffle=true;
-                    btn_shuffle.setImageResource(R.drawable.ic_shuffle_on);
+                    btn_shuffle.setImageResource(R.drawable.shuffle_on);
                 }
             }
         });
@@ -101,11 +101,11 @@ public class PlayerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(repeat){
                     repeat=false;
-                    btn_repeat.setImageResource(R.drawable.ic_repeat_off);
+                    btn_repeat.setImageResource(R.drawable.repeat_off);
 
                 }else{
                     repeat=true;
-                    btn_repeat.setImageResource(R.drawable.ic_repeat_on);
+                    btn_repeat.setImageResource(R.drawable.repeat_on);
                 }
             }
         });

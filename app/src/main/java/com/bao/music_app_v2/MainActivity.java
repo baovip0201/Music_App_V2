@@ -18,6 +18,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.Toast;
 
@@ -73,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFragments(new AlbumFragment(),"Albums");
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_playlist_play);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_album);
 
     }
     public static class ViewPagerAdapter extends FragmentPagerAdapter{
