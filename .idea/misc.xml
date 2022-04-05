@@ -16,6 +16,7 @@
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_repeat_off.xml" value="0.365" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_repeat_on.xml" value="0.33" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_right.xml" value="0.3675" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_search.xml" value="0.3375" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_shuffle_off.xml" value="0.3675" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_shuffle_on.xml" value="0.3675" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/drawable/ic_skip_next.xml" value="0.3675" />
@@ -32,6 +33,7 @@
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/layout/fragment_songs.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/layout/music_items.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/menu/menu.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/Music_App_V2/app/src/main/res/menu/search.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

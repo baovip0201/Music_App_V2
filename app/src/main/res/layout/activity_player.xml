@@ -103,8 +103,7 @@
         android:layout_below="@id/artist_name"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="50dp"
-        >
+        android:layout_marginTop="30dp">
 
         <ImageView
             android:id="@+id/id_shuffle"
@@ -156,11 +155,10 @@
     <RelativeLayout
         android:id="@+id/seek_bar_layout"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="80dp"
         android:layout_below="@+id/relative_layout_for_bottom"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="40dp">
+        android:layout_marginTop="15dp">
 
         <TextView
             android:id="@+id/duration_play"
@@ -168,7 +166,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
             android:text="1:00"
             android:textColor="@color/white" />
 
@@ -177,7 +174,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
             android:text="4:00"
             android:textColor="@color/white" />
@@ -188,7 +184,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="40dp"
-            android:layout_marginEnd="40dp" />
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="24dp"/>
 
     </RelativeLayout>
 
